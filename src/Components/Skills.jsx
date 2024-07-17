@@ -55,37 +55,53 @@ const Skills = () => {
                                 disableOnInteraction: true,
                             }}
                         >
-                            <SwiperSlide className='text-white flex flex-col justify-center items-center text-center h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" className='h-[10rem] w-[10rem] ' />
-                                <p className='text-white font-[poppins] text-2xl mt-5 '>HTML 5</p>
+                            <SwiperSlide className='text-white h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem] '>
+                                <div className='flex flex-col h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem] justify-center items-center '>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" className='h-[10rem] w-[10rem] ' />
+                                    <p className='text-white font-[poppins] text-2xl mt-5 '>HTML 5</p>
+                                </div>
                             </SwiperSlide>
-                            <SwiperSlide className='text-white flex flex-col justify-center items-center h-[20rem]  w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" className='h-[10rem] w-[10rem] ' />
-                                <p className='text-white font-[poppins] text-2xl mt-5 '>CSS 3</p>
+                            <SwiperSlide className='text-white   h-[20rem]  w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
+                                <div className='flex flex-col h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem] justify-center items-center '>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" className='h-[10rem] w-[10rem] ' />
+                                    <p className='text-white font-[poppins] text-2xl mt-5 '>CSS 3</p>
+                                </div>
                             </SwiperSlide>
-                            <SwiperSlide className='text-white flex flex-col justify-center items-center h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" className='h-[10rem] w-[10rem] ' />
-                                <p className='text-white font-[poppins] text-2xl mt-5 '>JavaScript</p>
+                            <SwiperSlide className='text-white  h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
+                                <div className='flex flex-col h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem] justify-center items-center '>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" className='h-[10rem] w-[10rem] ' />
+                                    <p className='text-white font-[poppins] text-2xl mt-5 '>JavaScript</p>
+                                </div>
                             </SwiperSlide>
-                            <SwiperSlide className='text-white flex flex-col justify-center items-center h-[20rem]  w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" className='h-[10rem] w-[10rem] ' />
-                                <p className='text-white font-[poppins] text-2xl mt-5 '>React Js</p>
+                            <SwiperSlide className='text-white   h-[20rem]  w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
+                                <div className='flex flex-col h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem] justify-center items-center '>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" className='h-[10rem] w-[10rem] ' />
+                                    <p className='text-white font-[poppins] text-2xl mt-5 '>React Js</p>
+                                </div>
                             </SwiperSlide>
-                            <SwiperSlide className='text-white flex flex-col justify-center items-center h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" className='h-[10rem] w-[10rem] ' />
-                                <p className='text-white font-[poppins] text-2xl mt-5 '>Tailwind Css</p>
+                            <SwiperSlide className='text-white  h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
+                                <div className='flex flex-col h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem] justify-center items-center '>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" className='h-[10rem] w-[10rem] ' />
+                                    <p className='text-white font-[poppins] text-2xl mt-5 '>Tailwind Css</p>
+                                </div>
                             </SwiperSlide>
-                            <SwiperSlide className='text-white flex flex-col justify-center items-center h-[20rem]  w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" className='h-[10rem] w-[10rem] ' />
-                                <p className='text-white font-[poppins] text-2xl mt-5 '>Firebase</p>
+                            <SwiperSlide className='text-white  h-[20rem]  w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
+                                <div className='flex flex-col h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem] justify-center items-center '>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/firebase/firebase-original.svg" className='h-[10rem] w-[10rem] ' />
+                                    <p className='text-white font-[poppins] text-2xl mt-5 '>Firebase</p>
+                                </div>
                             </SwiperSlide>
-                            <SwiperSlide className='text-white flex flex-col justify-center items-center h-[20rem]  w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className='h-[10rem] w-[10rem] ' />
-                                <p className='text-white font-[poppins] text-2xl mt-5 '>Python</p>
+                            <SwiperSlide className='text-white  h-[20rem]  w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
+                                <div className='flex flex-col h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem] justify-center items-center '>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" className='h-[10rem] w-[10rem] ' />
+                                    <p className='text-white font-[poppins] text-2xl mt-5 '>Python</p>
+                                </div>
                             </SwiperSlide>
-                            <SwiperSlide className='text-white flex flex-col justify-center items-center h-[20rem]  w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" className='h-[10rem] w-[10rem] ' />
-                                <p className='text-white font-[poppins] text-2xl mt-5 '>MySql</p>
+                            <SwiperSlide className='text-white  h-[20rem]  w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem]'>
+                                <div className='flex flex-col h-[20rem] w-[20rem] min-[1440px]:h-[25rem] min-[1440px]:w-[25rem] justify-center items-center '>
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" className='h-[10rem] w-[10rem] ' />
+                                    <p className='text-white font-[poppins] text-2xl mt-5 '>MySql</p>
+                                </div>
                             </SwiperSlide>
                         </Swiper>
                     )}
