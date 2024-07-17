@@ -38,7 +38,7 @@ const Homepage = () => {
                             initial={{ x: "-100vw" }}
                             animate={{ x: 0 }}
                             transition={{ delay: 7.2, duration: 2.5, ease: 'easeInOut' }}
-                            href="https://drive.google.com/file/d/1N6EMEAIJyVmTRcBkMKKZfkRgmvVQrQTg/view?usp=drive_link" target='_blank' className='text-white w-[8rem] h-[2rem] text-[18px] p-5 rounded-full bg-gradient-to-r from-[#945DD6] via-[#6978D1] to-[#13ADC7] font-[poppins] z-10 shadow-[0_0_20px_5px_rgba(0,178,255,0.35)] mx-7  flex justify-center items-center min-[320px]:hidden min-[375px]:hidden min-[425px]:hidden min-[768px]:flex min-[768px]:mx-0 min-[768px]:mt-5 min-[1024px]:text-[20px] min-[1024px]:h-[3rem] min-[1024px]:cursor-pointer'>View CV</motion.a>
+                            href="https://drive.google.com/file/d/1OnEbijVnJbrlikDhhMP6g8EfSkYFktEx/view?usp=sharing" target='_blank' className='text-white w-[8rem] h-[2rem] text-[18px] p-5 rounded-full bg-gradient-to-r from-[#945DD6] via-[#6978D1] to-[#13ADC7] font-[poppins] z-10 shadow-[0_0_20px_5px_rgba(0,178,255,0.35)] mx-7  flex justify-center items-center min-[320px]:hidden min-[375px]:hidden min-[425px]:hidden min-[768px]:flex min-[768px]:mx-0 min-[768px]:mt-5 min-[1024px]:text-[20px] min-[1024px]:h-[3rem] min-[1024px]:cursor-pointer'>View CV</motion.a>
                     </div>
                     <div className='down-part  w-[17rem] mt-2 h-[20rem]  flex flex-col  justify-around px-2  min-[425px]:w-[20rem] min-[768px]:mt-0  min-[768px]:justify-center min-[768px]:items-center '>
                         <motion.div
@@ -52,7 +52,7 @@ const Homepage = () => {
                             initial={{ x: "-100vw" }}
                             animate={{ x: 0 }}
                             transition={{ delay: 7.2, duration: 2.5, ease: 'easeInOut' }}
-                            href="https://drive.google.com/file/d/1N6EMEAIJyVmTRcBkMKKZfkRgmvVQrQTg/view?usp=drive_link" target='_blank' className='text-white w-[8rem] h-[2rem] text-[18px] p-5 rounded-full bg-gradient-to-r from-[#945DD6] via-[#6978D1] to-[#13ADC7] font-[poppins] z-10 shadow-[0_0_20px_5px_rgba(0,178,255,0.35)] mx-7  flex justify-center items-center min-[768px]:hidden'>View CV</motion.a>
+                            href="https://drive.google.com/file/d/1OnEbijVnJbrlikDhhMP6g8EfSkYFktEx/view?usp=sharing" target='_blank' className='text-white w-[8rem] h-[2rem] text-[18px] p-5 rounded-full bg-gradient-to-r from-[#945DD6] via-[#6978D1] to-[#13ADC7] font-[poppins] z-10 shadow-[0_0_20px_5px_rgba(0,178,255,0.35)] mx-7  flex justify-center items-center min-[768px]:hidden'>View CV</motion.a>
                     </div>
 
                 </div>
