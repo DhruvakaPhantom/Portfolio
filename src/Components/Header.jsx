@@ -1,35 +1,63 @@
 import React from 'react'
 import { Link } from 'react-scroll'
+import { motion } from 'framer-motion'
 
 const Header = () => {
 
     return (
         <>
-            <div className='  h-[4rem] flex  items-center justify-between px-2 '>
-                <h1 className={`text-white font-bebas text-3xl `}>Dhruv.</h1>
-                <a href="https://github.com/DhruvakaPhantom" target='_blank'><i className="devicon-github-original text-white text-[2rem] cursor-pointer "></i></a>
+            <div className='  h-[4rem] flex  items-center justify-between px-3 min-[768px]:px-8  min-[1024px]:px-16 min-[1024px]:h-[6rem]'>
+                <motion.a href=''
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 1.5, duration: 1.5 }}
+                    drag
+                    dragConstraints={{
+                        top: 0,
+                        left: 0,
+                        right: 0,
+                        bottom: 0,
+                    }}
+                    dragElastic={0.2}
+                    className={`text-white font-bebas text-[25px] min-[768px]:text-[30px] min-[1024px]:text-[34px] cursor-pointer`}>Dhruv.</motion.a>
+                <motion.a href="https://github.com/DhruvakaPhantom" target='_blank'
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 1.5, duration: 1.5, ease: 'easeInOut' }}><i className="devicon-github-original text-white text-[25px] cursor-pointer min-[768px]:text-[30px] min-[1024px]:text-[34px] hover:text-[#929EB0] duration-500"></i></motion.a>
                 {/* <Switch handleActive={handleActive} isActive={isActive} /> */}
             </div>
-            <div className='flex justify-around items-center font-mono text-white text-[18px] '>
+            <div className='flex justify-around items-center font-mono text-white text-[16px] min-[768px]:text-[20px] min-[1024px]:text-[22px]'>
                 <Link to="projects"
                     smooth={true}
                     offset={0}
                     duration={500}>
-                    <p className='cursor-pointer hover:text-[#929EB0] '>Projects</p>
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 2, duration: 1.5, ease: 'easeInOut' }}
+                        className='cursor-pointer hover:text-[#929EB0] duration-500'>Projects</motion.p>
                 </Link>
                 <Link
                     to="skills"
                     smooth={true}
                     offset={0}
                     duration={500}>
-                    <p className='cursor-pointer hover:text-[#929EB0] '>Technologies</p>
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 2.5, duration: 1.5, ease: 'easeInOut' }}
+                        className='cursor-pointer hover:text-[#929EB0] duration-500'>Technologies</motion.p>
                 </Link>
                 <Link
                     to="about"
                     smooth={true}
                     offset={0}
                     duration={500}>
-                    <p className='cursor-pointer hover:text-[#929EB0] '>About</p>
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 3, duration: 1.5, ease: 'easeInOut' }}
+                        className='cursor-pointer hover:text-[#929EB0] duration-500'>About</motion.p>
                 </Link>
             </div>
         </>

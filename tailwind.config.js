@@ -16,5 +16,5 @@ export default {
       "custom-blue": "0 4px 6px rgba(0, 178, 255, 0.35)", // #00B2FF59 is rgba(0, 178, 255, 0.35)
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };

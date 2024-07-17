@@ -4,15 +4,18 @@ import Projects from "./Components/Projects"
 import Skills from "./Components/Skills"
 import Homepage from "./Components/Homepage"
 
+
 function App() {
 
   return (
     <>
+
       <Homepage />
       <Projects />
       <Skills />
       <About />
       <Footer />
+
     </>
   )
 }
