@@ -10,7 +10,7 @@ const Header = () => {
                 <motion.a href=''
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ delay: 1.5, duration: 1.5 }}
+                    transition={{ duration: 1, ease: 'easeInOut' }}
                     drag
                     dragConstraints={{
                         top: 0,
@@ -20,10 +20,12 @@ const Header = () => {
                     }}
                     dragElastic={0.2}
                     className={`text-white font-bebas text-[25px] min-[768px]:text-[30px] min-[1024px]:text-[34px] cursor-pointer`}>Dhruv.</motion.a>
-                <motion.a href="https://github.com/DhruvakaPhantom" target='_blank'
+                <motion.a
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ delay: 1.5, duration: 1.5, ease: 'easeInOut' }}><i className="devicon-github-original text-white text-[25px] cursor-pointer min-[768px]:text-[30px] min-[1024px]:text-[34px] hover:text-[#929EB0] duration-500"></i></motion.a>
+                    transition={{ duration: 1, ease: 'easeInOut' }}
+                    href="https://github.com/DhruvakaPhantom" target='_blank'
+                ><i className="devicon-github-original text-white text-[25px] cursor-pointer min-[768px]:text-[30px] min-[1024px]:text-[34px] hover:text-[#929EB0] duration-500"></i></motion.a>
                 {/* <Switch handleActive={handleActive} isActive={isActive} /> */}
             </div>
             <div className='flex justify-around items-center font-mono text-white text-[16px] min-[768px]:text-[20px] min-[1024px]:text-[22px]'>
@@ -34,7 +36,7 @@ const Header = () => {
                     <motion.p
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        transition={{ delay: 2, duration: 1.5, ease: 'easeInOut' }}
+                        transition={{ duration: 1, delay: 1, ease: 'easeInOut' }}
                         className='cursor-pointer hover:text-[#929EB0] duration-500'>Projects</motion.p>
                 </Link>
                 <Link
@@ -45,7 +47,7 @@ const Header = () => {
                     <motion.p
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        transition={{ delay: 2.5, duration: 1.5, ease: 'easeInOut' }}
+                        transition={{ duration: 1, delay: 1.4, ease: 'easeInOut' }}
                         className='cursor-pointer hover:text-[#929EB0] duration-500'>Technologies</motion.p>
                 </Link>
                 <Link
@@ -56,7 +58,7 @@ const Header = () => {
                     <motion.p
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
-                        transition={{ delay: 3, duration: 1.5, ease: 'easeInOut' }}
+                        transition={{ duration: 1, delay: 1.8, ease: 'easeInOut' }}
                         className='cursor-pointer hover:text-[#929EB0] duration-500'>About</motion.p>
                 </Link>
             </div>

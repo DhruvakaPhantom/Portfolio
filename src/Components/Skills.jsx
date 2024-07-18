@@ -9,7 +9,7 @@ import { motion } from 'framer-motion';
 const Skills = () => {
 
     const [swiperInitialized, setSwiperInitialized] = useState(false)
-    const delayInSeconds = 14.8;
+    const delayInSeconds = 1;
 
     useEffect(() => {
         const timer = setTimeout(() => {
@@ -24,13 +24,14 @@ const Skills = () => {
             <div className="content h-full  flex flex-col ">
                 <motion.h1
                     initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: 14, duration: 1.5, ease: 'easeInOut' }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 1.5 }}
                     className='font-[poppins] text-white text-[22px]  mx-4 my-2  min-[768px]:text-[28px] min-[768px]:mx-8'>Technologies</motion.h1>
                 <motion.div
                     initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ delay: delayInSeconds + 0.8, duration: 1.5, ease: 'easeInOut' }}
+                    whileInView={{ opacity: 1 }}
+                    viewport={{ once: true, amount: 0.5 }}
+                    transition={{ delay: delayInSeconds, duration: 1.5, ease: 'easeInOut' }}
                     className='flex  flex-col justify-center items-center  h-[50rem]'>
                     {swiperInitialized && (
                         <Swiper

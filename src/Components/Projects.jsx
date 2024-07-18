@@ -10,15 +10,17 @@ const Projects = () => {
     <div className=' h-max  projects flex flex-col justify-center bg-[#0f1624]'>
       <motion.h1
         initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 10, duration: 1.5, ease: 'easeInOut' }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 1.5, ease: "easeInOut" }}
+        viewport={{ once: true, amount: 0.5 }}
         className='font-[poppins] text-white text-[22px]  mx-4 my-2  min-[768px]:text-[28px] min-[768px]:mx-8'>Projects</motion.h1>
       <div className=" flex flex-col justify-center items-center gap-8 mt-4 min-[768px]:grid min-[768px]:grid-cols-2 min-[768px]:self-center min-[768px]:p-12 min-[768px]:gap-x-16 min-[1024px]:self-center min-[1024px]:p-12 min-[1024px]:gap-x-24  min-[1440px]:self-center min-[1440px]:p-16 min-[1440px]:gap-x-28" >
 
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 10.8, duration: 1.5, ease: 'easeInOut' }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5, ease: 'easeInOut', delay: 1 }}
+
           className="boxes h-[24rem] w-[18rem]  rounded-xl bg-gradient-to-b from-[#945DD6] via-[#6978D1] to-[#13ADC7] flex justify-center items-center ">
           <div className="bg-[#0f1624]  h-[23.8rem] w-[17.8rem] rounded-xl flex flex-col justify-center space-y-5 ">
             <img src={pizzaJoint} alt="proj 1" className='h-[8rem] w-[16rem]  mx-auto' />
@@ -35,8 +37,9 @@ const Projects = () => {
 
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 11.6, duration: 1.5, ease: 'easeInOut' }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5, ease: 'easeInOut', delay: 1.2 }}
+
           className="boxes h-[24rem] w-[18rem] rounded-xl bg-gradient-to-b from-[#945DD6] via-[#6978D1] to-[#13ADC7] flex justify-center items-center">
           <div className="bg-[#0f1624] h-[23.8rem] w-[17.8rem] rounded-xl flex flex-col justify-center space-y-5 ">
             <img src={chatApp} alt="proj 2" className='h-[8rem] w-[16rem] mx-auto ' />
@@ -53,8 +56,9 @@ const Projects = () => {
 
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 12.4, duration: 1.5, ease: 'easeInOut' }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5, ease: 'easeInOut', delay: 1.4 }}
+
           className="boxes h-[24rem] w-[18rem]  rounded-xl bg-gradient-to-b from-[#945DD6] via-[#6978D1] to-[#13ADC7] flex justify-center items-center ">
           <div className="bg-[#0f1624] h-[23.8rem] w-[17.8rem] rounded-xl flex flex-col justify-center space-y-5 ">
             <img src={todoList} alt="proj 3" className='h-[8rem] w-[16rem] mx-auto ' />
@@ -71,8 +75,8 @@ const Projects = () => {
 
         <motion.div
           initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 13.2, duration: 1.5, ease: 'easeInOut' }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 1.5, ease: 'easeInOut', delay: 1.6 }}
           className="boxes   h-[24rem] w-[18rem]   rounded-xl bg-gradient-to-b from-[#945DD6] via-[#6978D1] to-[#13ADC7] flex justify-center items-center ">
           <div className="bg-[#0f1624] h-[23.8rem] w-[17.8rem] rounded-xl flex flex-col justify-center space-y-5 ">
             <img src={contactForm} alt="proj 4" className='h-[8rem] w-[16rem] mx-auto ' />
