@@ -26,11 +26,12 @@ const Skills = () => {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 1.5 }}
+                    viewport={{ once: true, amount: 0.5 }}
                     className='font-[poppins] text-white text-[22px]  mx-4 my-2  min-[768px]:text-[28px] min-[768px]:mx-8'>Technologies</motion.h1>
                 <motion.div
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
-                    viewport={{ once: true, amount: 0.5 }}
+                    viewport={{ once: true }}
                     transition={{ delay: delayInSeconds, duration: 1.5, ease: 'easeInOut' }}
                     className='flex  flex-col justify-center items-center  h-[50rem]'>
                     {swiperInitialized && (

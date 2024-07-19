@@ -19,8 +19,8 @@ const Projects = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1.5, ease: 'easeInOut', delay: 1 }}
-
+          transition={{ duration: 1.5, ease: 'easeInOut' }}
+          viewport={{ once: true }}
           className="boxes h-[24rem] w-[18rem]  rounded-xl bg-gradient-to-b from-[#945DD6] via-[#6978D1] to-[#13ADC7] flex justify-center items-center ">
           <div className="bg-[#0f1624]  h-[23.8rem] w-[17.8rem] rounded-xl flex flex-col justify-center space-y-5 ">
             <img src={pizzaJoint} alt="proj 1" className='h-[8rem] w-[16rem]  mx-auto' />
@@ -38,8 +38,8 @@ const Projects = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1.5, ease: 'easeInOut', delay: 1.2 }}
-
+          transition={{ duration: 1.5, ease: 'easeInOut' }}
+          viewport={{ once: true }}
           className="boxes h-[24rem] w-[18rem] rounded-xl bg-gradient-to-b from-[#945DD6] via-[#6978D1] to-[#13ADC7] flex justify-center items-center">
           <div className="bg-[#0f1624] h-[23.8rem] w-[17.8rem] rounded-xl flex flex-col justify-center space-y-5 ">
             <img src={chatApp} alt="proj 2" className='h-[8rem] w-[16rem] mx-auto ' />
@@ -57,8 +57,8 @@ const Projects = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1.5, ease: 'easeInOut', delay: 1.4 }}
-
+          transition={{ duration: 1.5, ease: 'easeInOut' }}
+          viewport={{ once: true }}
           className="boxes h-[24rem] w-[18rem]  rounded-xl bg-gradient-to-b from-[#945DD6] via-[#6978D1] to-[#13ADC7] flex justify-center items-center ">
           <div className="bg-[#0f1624] h-[23.8rem] w-[17.8rem] rounded-xl flex flex-col justify-center space-y-5 ">
             <img src={todoList} alt="proj 3" className='h-[8rem] w-[16rem] mx-auto ' />
@@ -76,7 +76,8 @@ const Projects = () => {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          transition={{ duration: 1.5, ease: 'easeInOut', delay: 1.6 }}
+          transition={{ duration: 1.5, ease: 'easeInOut' }}
+          viewport={{ once: true }}
           className="boxes   h-[24rem] w-[18rem]   rounded-xl bg-gradient-to-b from-[#945DD6] via-[#6978D1] to-[#13ADC7] flex justify-center items-center ">
           <div className="bg-[#0f1624] h-[23.8rem] w-[17.8rem] rounded-xl flex flex-col justify-center space-y-5 ">
             <img src={contactForm} alt="proj 4" className='h-[8rem] w-[16rem] mx-auto ' />
